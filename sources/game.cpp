@@ -1,3 +1,16 @@
+/*
+* Assignment 2 in System Programming B, spring 2023
+* Mayan Hazon
+* 13/4/23
+* 
+* Version 1.0
+*
+*
+* Sources:
+* Class lectures
+* Tutorials on geeksforgeeks.org and problem solving using Stack Overflow
+*/
+
 #include <stack>
 #include <time.h>
 #include <stdio.h>

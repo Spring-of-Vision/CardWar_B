@@ -6,9 +6,9 @@ using namespace std;
 
 namespace ariel
 {
-
     Player::Player(string str)
     {
+        //Initialize values
         name = str;
         won = 0;
         isPlaying = false;
@@ -16,8 +16,8 @@ namespace ariel
 
     void Player::addCard(Card &a)
     {
+        //Add card to the stack
         deck.push(a);
-        //cout << "Last inserted card for player " << name << " is " << deck.top().getNumber()  << " and it is card number " << deck.size() << "\n";
     }
 
     Card Player::draw()
@@ -29,7 +29,6 @@ namespace ariel
         Card top = deck.top(); //save top card
         deck.pop(); //remove top card
         return top;
-        //if empty?
     }
 
     void Player::updateWin(int num)
